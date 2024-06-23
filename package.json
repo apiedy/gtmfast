@@ -2,12 +2,13 @@
   "name": "gtmfast",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "ng": "ng",
+    "prettier": "prettier . --write",
+    "serve:ssr:gtmfast": "node dist/gtmfast/server/server.mjs",
+    "start": "ng serve",
     "test": "ng test",
-    "serve:ssr:gtmfast": "node dist/gtmfast/server/server.mjs"
+    "watch": "ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
