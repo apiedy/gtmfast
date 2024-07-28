@@ -1,1 +1,14 @@
-<p>header works!</p>
+<header>
+  <nav class="header-wrapper">
+    <!-- logo box -->
+    <h1 class="logo">
+      <a routerLink="/">
+        @if (title) {
+          {{ title }}
+        } @else {
+          show logo
+        }
+      </a>
+    </h1>
+  </nav>
+</header>
